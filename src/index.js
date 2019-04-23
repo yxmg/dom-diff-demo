@@ -19,8 +19,8 @@ let vnode2 = createVNode('ul', { class: 'list-group' }, [
 
 let patches = diff(vnode1, vnode2)
 patch(dom, patches)
-
-console.log(dom, "dom")
-console.log(vnode1, "vnode1")
-console.log(vnode2, "vnode2")
-console.log(patches, "patches")
+//
+// console.log(dom, "dom")
+// console.log(vnode1, "vnode1")
+// console.log(vnode2, "vnode2")
+// console.log(patches, "patches")

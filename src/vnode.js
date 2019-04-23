@@ -48,6 +48,9 @@ function setAttr(dom, attr) {
       case 'style':
         dom.style.cssText = value
         break
+      case undefined:
+        dom.removeAttribute(declaration)
+        break
       default:
         dom.setAttribute(declaration, value)
         break
